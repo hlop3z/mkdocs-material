@@ -1,5 +1,10 @@
 # PDM - Commands
 
+- `pdm run dev` **Dev.** Mode
+- `pdm run gh-deploy` **Deploy** to GitHub
+
+# PDM - Commands
+
 - `pdm install` **Install** Dependencies
 - `pdm sync` **Sync** Dependencies
 
