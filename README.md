@@ -1,4 +1,4 @@
-# PDM - Commands
+# PDM - MkDocs Commands
 
 - `pdm run dev` **Dev.** Mode
 - `pdm run gh-deploy` **Deploy** to GitHub
