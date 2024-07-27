@@ -1,3 +1,9 @@
+# Clone
+
+```sh
+git clone https://github.com/hlop3z/mkdocs-material.git && rm -rf mkdocs-material/.git
+```
+
 # PDM - MkDocs Commands
 
 - `pdm run dev` **Dev.** Mode
