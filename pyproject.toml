@@ -7,11 +7,11 @@ name = ""
 version = ""
 description = ""
 authors = [
-    {name = "hlop3z", email = "23062270+hlop3z@users.noreply.github.com"},
+    { name = "hlop3z", email = "23062270+hlop3z@users.noreply.github.com" },
 ]
 dependencies = ["mkdocs", "mkdocs-material"]
-requires-python = ">=3.10"
-license = {text = "MIT"}
+requires-python = ">=3.12"
+license = { text = "MIT" }
 
 [tool]
 [tool.pdm]

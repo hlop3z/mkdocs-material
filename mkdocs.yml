@@ -14,15 +14,17 @@ theme:
   name: material
   locale: en
   features:
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.instant
     - navigation.tracking
     - navigation.sections
     - navigation.top
     - content.code.annotate
+    - content.code.copy
     # - navigation.expand
   icon:
-    logo: material/bike-fast
+    logo: material/alien-outline
+    # https://pictogrammers.com/library/mdi/
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -52,5 +54,5 @@ markdown_extensions:
       alternate_style: true
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
